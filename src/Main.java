@@ -79,7 +79,7 @@ public class Main {
             price = 13.99;
         }
         price = (price + (1.25 * (toppings.size() - 2)));
-        System.out.println("with toppings: " + toppings.listIterator());
+        System.out.println("with toppings: "+ toppings.toString());
         System.out.print("total price is £" + price);
     }
 }
